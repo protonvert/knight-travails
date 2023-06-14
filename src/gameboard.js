@@ -12,7 +12,7 @@ const gameboard = () => {
     }
     return boardArrays
   }
-  // print map
+
   const printBoard = () => {
     console.log('board')
   }

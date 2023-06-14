@@ -1,4 +1,8 @@
-const gameboard = require('./gameboard')
-const knight = require('./knight')
+const Gameboard = require('./gameboard')
+const Knight = require('./knight')
 
-const board = gameboard()
+const board = Gameboard()
+const knight = Knight()
+
+knight.position = [5, 5]
+// console.log(knight.getPossibleMoves())
