@@ -13,15 +13,15 @@ const gameboard = () => {
     return boardArrays
   }
 
-  const printBoard = () => {
-    console.log('board')
-  }
+  // const printBoard = () => {
+  //   console.log('board')
+  // }
 
   // --------------------------------- Variables -------------------------------------------------------
   // array or map of squares
   const boardCoordinates = generateBoard()
 
-  return { generateBoard, printBoard }
+  return { generateBoard }
 }
 
 module.exports = gameboard
