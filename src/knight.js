@@ -8,8 +8,8 @@ const Node = (pos, path) => {
 }
 
 const knightMoves = ([x, y], [a, b]) => {
-  const queue = [Node([x, y], [[x, y]])]
   // a queue is a first in first out data structure
+  const queue = [Node([x, y], [[x, y]])]
 
   let currentNode = queue.shift()
 
